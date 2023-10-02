@@ -85,7 +85,7 @@ const Feedback = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-2'>Your Feedback</span>
             <textarea
-              rows={5} // Adjust the number of rows here to make it smaller
+              rows={4} // Adjust the number of rows here to make it smaller
               name='feedback'
               value={form.feedback}
               onChange={handleChange}
